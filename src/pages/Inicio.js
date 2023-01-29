@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 
 
@@ -6,6 +6,9 @@ const Inicio = () => {
 
   const navigate = useNavigate();
 
+  const [puerta,setPuerta]=useState(true)
+
+  const handlePuerta = () => {setPuerta(!puerta)}
   
   return (
     <section className='w-full h-screen justify-center flex'> 
@@ -21,14 +24,14 @@ const Inicio = () => {
         </div>
 
         <div className='w-full h-80 border-input bg-white rounded-xl border-2 border-gray-500'>
-          <button className=' w-1/2 h-full bg-blue-300 text-black rounded-xl border-2 border-gray-500'>PANEL PERSONA NATURAL</button>
+          {puerta?<button onClick={handlePuerta} className=' w-1/2 h-full bg-blue-300 text-black rounded-xl border-2 border-gray-500'>PANEL PERSONA NATURAL</button>:<button onClick={handlePuerta}>Se activo el State</button>}
           <button className=' w-1/2 h-full bg-blue-300 text-black rounded-xl border-2 border-gray-500'>PANEL EMPRESAS</button>
 
         </div> 
 
         <div className='w-full h-20 border-input bg-white rounded-xl border-2 border-gray-500 flex items-center justify-center'>
 
-{/* FOOTER PARA CONTACTENOS */}
+        {/* FOOTER PARA CONTACTENOS */}
                             
         </div>
 
