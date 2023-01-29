@@ -8,6 +8,9 @@ import Login from '../pages/Login';
 import NotFound from '../pages/NotFound';
 import Panelempre from '../pages/Panelempre';
 import Panelps from '../pages/Panelps';
+import Footer from '../pages/Footer';
+
+
 
 
 
@@ -22,6 +25,7 @@ const App = () => {
           <Route path ="*" element = {<NotFound/>} />
           <Route path ="/panelempre" element = {<Panelempre/>} />
           <Route path ="/panelps" element = {<Panelps/>} />
+          <Route path="/footer" element = {<Footer/>} />
 
       </Routes>
     </BrowserRouter>           
