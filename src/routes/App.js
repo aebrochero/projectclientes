@@ -6,6 +6,10 @@ import '../App.css';
 import Inicio from '../pages/Inicio';
 import Login from '../pages/Login';
 import NotFound from '../pages/NotFound';
+import Panelempre from '../pages/Panelempre';
+import Panelps from '../pages/Panelps';
+
+
 
 const App = () => {
 
@@ -16,6 +20,9 @@ const App = () => {
           <Route exact path = "/" element = {<Login/>} />
           <Route exact path = "/inicio" element = {<Inicio/>} />
           <Route path ="*" element = {<NotFound/>} />
+          <Route path ="/panelempre" element = {<Panelempre/>} />
+          <Route path ="/panelps" element = {<Panelps/>} />
+
       </Routes>
     </BrowserRouter>           
   );
