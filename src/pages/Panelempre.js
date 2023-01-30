@@ -11,8 +11,8 @@ const Panelempre = () => {
   }
 
   return (
-    <section className='w-full h-screen justify-center flex'> 
-      <div className='w-[1440px] h-full mt-2 px-2'>
+    <section className='w-full h-full justify-center flex'> 
+      <div className='w-[1440px] h-full mt-2 mb-2 px-2'>
         <div className='w-full h-20 border-input rounded-xl border-2 border-gray-500 flex items-center justify-between'>
           <Link to='/'>
           <img src="https://servitel.co/wp-content/uploads/2019/04/Mesa-de-trabajo-1@280x-8.png" className='h-16' alt="" /></Link>
@@ -70,7 +70,14 @@ const Panelempre = () => {
             <td>Germany</td>
             <td>Germany</td>
             <td>Italy</td>
-            <td>Germany</td>
+            <td className='flex justify-center'>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSytRZHAkDk54S0pUPJUv3Ph51eD5jQ6_cDMg&usqp=CAU" className='h-8' alt="" />
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSytRZHAkDk54S0pUPJUv3Ph51eD5jQ6_cDMg&usqp=CAU" className='h-8' alt="" />
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSytRZHAkDk54S0pUPJUv3Ph51eD5jQ6_cDMg&usqp=CAU" className='h-8' alt="" />
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSytRZHAkDk54S0pUPJUv3Ph51eD5jQ6_cDMg&usqp=CAU" className='h-8' alt="" />
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSytRZHAkDk54S0pUPJUv3Ph51eD5jQ6_cDMg&usqp=CAU" className='h-8' alt="" />
+
+            </td>
           </tr>
           <tr id='fila2'> 
             <td>Centro comercial Moctezuma</td>
@@ -78,7 +85,14 @@ const Panelempre = () => {
             <td>Mexico</td>
             <td>Mexico</td>
             <td>Italy</td>
-            <td>Mexico</td>
+            <td className='flex justify-center'>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSytRZHAkDk54S0pUPJUv3Ph51eD5jQ6_cDMg&usqp=CAU" className='h-8' alt="" />
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSytRZHAkDk54S0pUPJUv3Ph51eD5jQ6_cDMg&usqp=CAU" className='h-8' alt="" />
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSytRZHAkDk54S0pUPJUv3Ph51eD5jQ6_cDMg&usqp=CAU" className='h-8' alt="" />
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSytRZHAkDk54S0pUPJUv3Ph51eD5jQ6_cDMg&usqp=CAU" className='h-8' alt="" />
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSytRZHAkDk54S0pUPJUv3Ph51eD5jQ6_cDMg&usqp=CAU" className='h-8' alt="" />
+              
+            </td>
           </tr>
           <tr id='fila3'>
             <td>Ernst Handel</td>
@@ -86,7 +100,14 @@ const Panelempre = () => {
             <td>Austria</td>
             <td>Austria</td>
             <td>Italy</td>
-            <td>Austria</td>
+            <td className='flex justify-center'>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSytRZHAkDk54S0pUPJUv3Ph51eD5jQ6_cDMg&usqp=CAU" className='h-8' alt="" />
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSytRZHAkDk54S0pUPJUv3Ph51eD5jQ6_cDMg&usqp=CAU" className='h-8' alt="" />
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSytRZHAkDk54S0pUPJUv3Ph51eD5jQ6_cDMg&usqp=CAU" className='h-8' alt="" />
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSytRZHAkDk54S0pUPJUv3Ph51eD5jQ6_cDMg&usqp=CAU" className='h-8' alt="" />
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSytRZHAkDk54S0pUPJUv3Ph51eD5jQ6_cDMg&usqp=CAU" className='h-8' alt="" />
+              
+            </td>
           </tr>
           <tr id='fila4'>
             <td>Island Trading</td>
@@ -94,7 +115,14 @@ const Panelempre = () => {
             <td>UK</td>
             <td>UK</td>
             <td>Italy</td>
-            <td>UK</td>
+            <td className='flex justify-center'>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSytRZHAkDk54S0pUPJUv3Ph51eD5jQ6_cDMg&usqp=CAU" className='h-8' alt="" />
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSytRZHAkDk54S0pUPJUv3Ph51eD5jQ6_cDMg&usqp=CAU" className='h-8' alt="" />
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSytRZHAkDk54S0pUPJUv3Ph51eD5jQ6_cDMg&usqp=CAU" className='h-8' alt="" />
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSytRZHAkDk54S0pUPJUv3Ph51eD5jQ6_cDMg&usqp=CAU" className='h-8' alt="" />
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSytRZHAkDk54S0pUPJUv3Ph51eD5jQ6_cDMg&usqp=CAU" className='h-8' alt="" />
+              
+            </td>
           </tr>
           <tr id='fila5'>
             <td>Laughing Bacchus Winecellars</td>
@@ -102,7 +130,14 @@ const Panelempre = () => {
             <td>Canada</td>
             <td>Canada</td>
             <td>Italy</td>
-            <td>Canada</td>
+            <td className='flex justify-center'>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSytRZHAkDk54S0pUPJUv3Ph51eD5jQ6_cDMg&usqp=CAU" className='h-8' alt="" />
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSytRZHAkDk54S0pUPJUv3Ph51eD5jQ6_cDMg&usqp=CAU" className='h-8' alt="" />
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSytRZHAkDk54S0pUPJUv3Ph51eD5jQ6_cDMg&usqp=CAU" className='h-8' alt="" />
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSytRZHAkDk54S0pUPJUv3Ph51eD5jQ6_cDMg&usqp=CAU" className='h-8' alt="" />
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSytRZHAkDk54S0pUPJUv3Ph51eD5jQ6_cDMg&usqp=CAU" className='h-8' alt="" />
+              
+            </td>
           </tr>
           <tr id='fila6'>
             <td>Magazzini Alimentari Riuniti</td>
@@ -110,7 +145,14 @@ const Panelempre = () => {
             <td>Canada</td>
             <td>Canada</td>
             <td>Italy</td>
-            <td>Italy</td>
+            <td className='flex justify-center'>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSytRZHAkDk54S0pUPJUv3Ph51eD5jQ6_cDMg&usqp=CAU" className='h-8' alt="" />
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSytRZHAkDk54S0pUPJUv3Ph51eD5jQ6_cDMg&usqp=CAU" className='h-8' alt="" />
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSytRZHAkDk54S0pUPJUv3Ph51eD5jQ6_cDMg&usqp=CAU" className='h-8' alt="" />
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSytRZHAkDk54S0pUPJUv3Ph51eD5jQ6_cDMg&usqp=CAU" className='h-8' alt="" />
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSytRZHAkDk54S0pUPJUv3Ph51eD5jQ6_cDMg&usqp=CAU" className='h-8' alt="" />
+              
+            </td>
           </tr>
         </table>
 
