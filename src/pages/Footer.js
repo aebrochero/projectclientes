@@ -1,9 +1,10 @@
 import React from 'react'
 
-const footer = () => {
+
+const Footer = () => {
     return(
-        <footer className="w-full h-auto bg-backfoot pt-2 space-y-2 dark:bg-gray-900 " id="aboutus">
-            <div className='flex lg:flex-row flex-col justify-center lg:divide-x mx-2'>
+        <footer className="w-full h-auto bg-backfoot pt-2 space-y-2 bg-gray-900 " id="aboutus">
+            <div className='flex flex-row justify-left divide-x mx-2'>
                 <div className='pr-5 pb-2 border-white '>
                     <p className="text-lag font-bold text-white text-xl">Sobre nosotros</p>
                     <p className="text-sma font-bold text-orange-500">Servitelecomunicaciones - BOGOTA COLOMBIA</p>
@@ -20,7 +21,7 @@ const footer = () => {
 
                 </div>
             </div>
-            <div className='bg-gray-900 text-xsm text-white dark:text-blue-900 pl-3 flex justify-end text-2xl font font-semibold'>
+            <div className='bg-gray-900 text-xsm text-white pl-3 flex justify-end text-2xl font font-semibold'>
                 TODOS LOS DERECHOS RESERVADOS © 2023 SERVITELECOMUNICACIONES.
 
             </div>
@@ -28,4 +29,4 @@ const footer = () => {
     );
 }
 
-export default footer;
+export default Footer;

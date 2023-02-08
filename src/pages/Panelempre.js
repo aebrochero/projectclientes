@@ -1,5 +1,7 @@
 import React from 'react'
 import { Link, useNavigate } from 'react-router-dom'
+import Footer from './Footer';
+
 
 const Panelempre = () => {
 
@@ -11,7 +13,7 @@ const Panelempre = () => {
   }
 
   return (
-    <section className='w-full h-full justify-center flex'> 
+    <section className='w-full h-full items-center flex flex-col'> 
       <div className='w-[1440px] h-full mt-2 mb-2 px-2'>
         <div className='w-full h-20 border-input rounded-xl border-2 border-gray-500 flex items-center justify-between'>
           <Link to='/'>
@@ -52,10 +54,10 @@ const Panelempre = () => {
 
         </div>
 
-        <div className='w-full h-full border-input bg-white rounded-xl border-2 border-gray-500 flex items-center justify-center text-center'>
+        <div className='w-full h-[1080px] border-input rounded-xl border-2 border-gray-500 flex items-center justify-center text-center'>
 
         <table className='w-full h-full'>
-          <tr id='segments'>
+          <tr id='segments' className='bg-white even:bg-gray-300' >
             <th>Empresa</th>
             <th>Nit</th>
             <th>Correo electrónico</th>
@@ -64,13 +66,13 @@ const Panelempre = () => {
             <th>Opciones</th>
 
           </tr>
-          <tr id='fila1'>
+          <tr id='fila1' className='bg-white even:bg-gray-300' >
             <td>Alfreds Futterkiste</td>
             <td>Maria Anders</td>
             <td>Germany</td>
             <td>Germany</td>
             <td>Italy</td>
-            <td className='flex justify-center'>
+            <td className='flex justify-center items-center h-full'>
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSytRZHAkDk54S0pUPJUv3Ph51eD5jQ6_cDMg&usqp=CAU" className='h-8' alt="" />
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSytRZHAkDk54S0pUPJUv3Ph51eD5jQ6_cDMg&usqp=CAU" className='h-8' alt="" />
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSytRZHAkDk54S0pUPJUv3Ph51eD5jQ6_cDMg&usqp=CAU" className='h-8' alt="" />
@@ -79,13 +81,13 @@ const Panelempre = () => {
 
             </td>
           </tr>
-          <tr id='fila2'> 
+          <tr id='fila2' className='bg-white even:bg-gray-300'> 
             <td>Centro comercial Moctezuma</td>
             <td>Francisco Chang</td>
             <td>Mexico</td>
             <td>Mexico</td>
             <td>Italy</td>
-            <td className='flex justify-center'>
+            <td className='flex justify-center items-center h-full'>
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSytRZHAkDk54S0pUPJUv3Ph51eD5jQ6_cDMg&usqp=CAU" className='h-8' alt="" />
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSytRZHAkDk54S0pUPJUv3Ph51eD5jQ6_cDMg&usqp=CAU" className='h-8' alt="" />
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSytRZHAkDk54S0pUPJUv3Ph51eD5jQ6_cDMg&usqp=CAU" className='h-8' alt="" />
@@ -94,13 +96,14 @@ const Panelempre = () => {
               
             </td>
           </tr>
-          <tr id='fila3'>
+          <tr id='fila3' className='bg-white even:bg-gray-3
+          00'>7
             <td>Ernst Handel</td>
             <td>Roland Mendel</td>
             <td>Austria</td>
             <td>Austria</td>
             <td>Italy</td>
-            <td className='flex justify-center'>
+            <td className='flex justify-center items-center h-full'>
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSytRZHAkDk54S0pUPJUv3Ph51eD5jQ6_cDMg&usqp=CAU" className='h-8' alt="" />
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSytRZHAkDk54S0pUPJUv3Ph51eD5jQ6_cDMg&usqp=CAU" className='h-8' alt="" />
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSytRZHAkDk54S0pUPJUv3Ph51eD5jQ6_cDMg&usqp=CAU" className='h-8' alt="" />
@@ -115,7 +118,7 @@ const Panelempre = () => {
             <td>UK</td>
             <td>UK</td>
             <td>Italy</td>
-            <td className='flex justify-center'>
+            <td className='flex justify-center items-center h-full'>
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSytRZHAkDk54S0pUPJUv3Ph51eD5jQ6_cDMg&usqp=CAU" className='h-8' alt="" />
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSytRZHAkDk54S0pUPJUv3Ph51eD5jQ6_cDMg&usqp=CAU" className='h-8' alt="" />
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSytRZHAkDk54S0pUPJUv3Ph51eD5jQ6_cDMg&usqp=CAU" className='h-8' alt="" />
@@ -130,7 +133,7 @@ const Panelempre = () => {
             <td>Canada</td>
             <td>Canada</td>
             <td>Italy</td>
-            <td className='flex justify-center'>
+            <td className='flex justify-center items-center h-full'>
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSytRZHAkDk54S0pUPJUv3Ph51eD5jQ6_cDMg&usqp=CAU" className='h-8' alt="" />
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSytRZHAkDk54S0pUPJUv3Ph51eD5jQ6_cDMg&usqp=CAU" className='h-8' alt="" />
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSytRZHAkDk54S0pUPJUv3Ph51eD5jQ6_cDMg&usqp=CAU" className='h-8' alt="" />
@@ -145,7 +148,7 @@ const Panelempre = () => {
             <td>Canada</td>
             <td>Canada</td>
             <td>Italy</td>
-            <td className='flex justify-center'>
+            <td className='flex justify-center items-center h-full'>
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSytRZHAkDk54S0pUPJUv3Ph51eD5jQ6_cDMg&usqp=CAU" className='h-8' alt="" />
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSytRZHAkDk54S0pUPJUv3Ph51eD5jQ6_cDMg&usqp=CAU" className='h-8' alt="" />
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSytRZHAkDk54S0pUPJUv3Ph51eD5jQ6_cDMg&usqp=CAU" className='h-8' alt="" />
@@ -160,9 +163,11 @@ const Panelempre = () => {
                             
         </div>
 
-      {/* FOOTER PARA CONTACTENOS */}    
 
       </div>
+      {/* FOOTER PARA CONTACTENOS */}    
+      <Footer/>
+
     </section>
   )
 }

@@ -11,9 +11,6 @@ import Panelps from '../pages/Panelps';
 import Footer from '../pages/Footer';
 
 
-
-
-
 const App = () => {
 
 

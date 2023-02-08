@@ -1,8 +1,13 @@
 import React from 'react'
+import Footer from './Footer';
+
 
 const Panelps = () => {
   return (
-    <div className='w-20 h-20 bg-gray-600'>"PERSONA NATURAL Lorem ipsum dolor sit amet, consectetur adipiscing elit"</div>
+    <section className='w-20 h-20 bg-gray-600'>"PERSONA NATURAL Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        <Footer/>
+    </section>
+    
   )
 }
 

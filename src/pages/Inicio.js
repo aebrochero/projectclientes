@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
+import Footer from './Footer';
 
 
 const Inicio = () => {
@@ -17,7 +18,7 @@ const Inicio = () => {
   
   return (
     
-    <section className='w-full h-screen justify-center flex'> 
+    <section className='w-full h-screen flex flex-col items-center'> 
       <div className='w-[1440px] h-full mt-2 px-2'>
         <div className='w-full h-20 border-input rounded-xl border-2 border-gray-500 flex items-center justify-between'>
           <Link to='/'>
@@ -35,14 +36,13 @@ const Inicio = () => {
 
         </div> 
 
-        <div className='w-full h-20 border-input bg-white rounded-xl border-2 border-gray-500 flex items-center justify-center'>
 
         {/* FOOTER PARA CONTACTENOS */}
                             
-        </div>
 
      
       </div>
+        <Footer/>
     </section>
 
   )
